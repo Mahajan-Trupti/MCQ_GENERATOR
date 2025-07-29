@@ -18,7 +18,7 @@ KEY = os.getenv("OPEN_AI_KEY")
 
 
 # create the openai llm client
-llm = ChatOpenAI(openai_api_key = KEY, model_name="gpt-3.5-turbo",
+llm = ChatOpenAI(openai_api_key = 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, model_name="gpt-3.5-turbo",
                  temperature=0.3)
 
 # This is the template i will pass
